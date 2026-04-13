@@ -16,8 +16,10 @@
 ### 前提条件
 
 1. **GitHub 仓库**：已启用 GitHub Actions
-2. **LLM API 密钥**：DeepSeek 或其他兼容 OpenAI API 的 LLM 服务 API Key
-3. **Python 环境**：GitHub Actions 中的 Ubuntu 环境（已自动配置）
+2. **个人访问令牌（PAT）**：用于 GitHub Actions 访问仓库的 API 权限，确保仓库已启用 Actions 功能
+   **或** Action的权限设置为读写
+3. **LLM API 密钥**：DeepSeek 或其他兼容 OpenAI API 的 LLM 服务 API Key
+4. **Python 环境**：GitHub Actions 中的 Ubuntu 环境（已自动配置）
 
 ### 安装步骤
 
@@ -27,6 +29,12 @@
    - `LLM_API_KEY`: 你的 LLM API 密钥
    - （可选）`LLM_API_ENDPOINT`: LLM API 端点，默认使用 DeepSeek
    - （可选）`LLM_API_MODEL`: 使用的模型名称，默认 `deepseek-chat`
+   - （可选）`ACTION_PAT`: GitHub Actions 个人访问令牌（PAT），用于触发工作流，默认空字符串
+
+#### 如未配置个人访问令牌（PAT）需进行以下步骤：
+
+1. **进入仓库 Settings**：在仓库 Settings → Actions → General → Workflow permissions
+2. **配置权限**: 选择Read repository contents and packages permissions并保存
 
 ## 📖 使用方法
 
