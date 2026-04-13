@@ -76,7 +76,7 @@ jobs:
           echo "prev_tag=$PREV_TAG" >> $GITHUB_OUTPUT
           echo "current_tag=$CURRENT_TAG" >> $GITHUB_OUTPUT
 
-      - name: 生成Commit差异日志（终极容错版）
+      - name: 生成Commit差异日志
         id: get_commit_log
         run: |
           PREV_TAG="${{ steps.process_tag.outputs.prev_tag }}"
