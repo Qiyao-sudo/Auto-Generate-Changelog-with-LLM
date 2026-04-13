@@ -10,7 +10,7 @@
 主版本号：{main_version}
 完整版本号：{sub_version}
 Git Tag：{current_tag}
-更新日期：{os.popen('date +%Y-%m-%d').read().strip()}
+更新日期：{update_date}
 
 提交记录详情：
 {commit_content}

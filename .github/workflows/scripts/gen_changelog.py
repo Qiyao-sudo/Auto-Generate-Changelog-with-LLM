@@ -1,6 +1,7 @@
 import os
 import requests
 from pathlib import Path
+from datetime import datetime
 
 # 读取环境变量
 API_KEY = os.getenv("LLM_API_KEY")
@@ -10,6 +11,9 @@ MODEL = os.getenv("LLM_API_MODEL")
 main_version = os.getenv("MAIN_VERSION")
 sub_version = os.getenv("SUB_VERSION")
 current_tag = os.getenv("CURRENT_TAG")
+
+# 获取当前日期
+update_date = datetime.now().strftime("%Y-%m-%d")
 
 # 读取commit差异日志
 with open("commit_diff.txt", "r", encoding="utf-8") as f:
@@ -22,7 +26,13 @@ with open(".github/workflows/scripts/template.txt", "r", encoding="utf-8") as f:
 
 
 ## 构造专业Prompt，让LLM输出标准结构化Changelog
-prompt = template.format(commit_content=commit_content)
+prompt = template.format(
+    main_version=main_version,
+    sub_version=sub_version,
+    current_tag=current_tag,
+    update_date=update_date,
+    commit_content=commit_content
+)
 
 # 请求LLM API
 headers = {
