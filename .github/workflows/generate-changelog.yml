@@ -27,6 +27,7 @@ jobs:
           fetch-depth: 0
           fetch-tags: true
           ref: main  # 确保在主分支操作，可根据你的分支名修改
+          token: ${{ secrets.ACTION_PAT || '' }}
 
       - name: 设置Python环境
         uses: actions/setup-python@v5
