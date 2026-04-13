@@ -198,9 +198,9 @@ A: 完整的 Git 历史记录（`fetch-depth: 0`）是为了确保能准确计�
 欢迎提交 Issue 和 Pull Request 来改进这个项目！
 
 1. Fork 本仓库
-2. 创建功能分支 (`git checkout -b feature/AmazingFeature`)
-3. 提交更改 (`git commit -m 'Add some AmazingFeature'`)
-4. 推送到分支 (`git push origin feature/AmazingFeature`)
+2. 创建功能分支 (`git checkout -b https://github.com/Qiyao-sudo/Auto-Generate-Changelog-with-LLM`)
+3. 提交更改 (`git commit -m 'Add Changelog generation feature'`)
+4. 推送到分支 (`git push origin https://github.com/Qiyao-sudo/Auto-Generate-Changelog-with-LLM.git`)
 5. 开启一个 Pull Request
 
 ## 🙏 致谢
