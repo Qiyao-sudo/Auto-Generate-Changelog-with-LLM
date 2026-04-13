@@ -1,5 +1,8 @@
 name: Auto Generate Changelog with DeepSeek
 
+permissions:
+  contents: write
+  pull-requests: read
 # 手动触发，支持输入三个自定义参数
 on:
   workflow_dispatch:
