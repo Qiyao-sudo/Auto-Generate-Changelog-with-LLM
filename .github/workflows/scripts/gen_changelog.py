@@ -16,7 +16,7 @@ with open("commit_diff.txt", "r", encoding="utf-8") as f:
     commit_content = f.read().strip()
 
 # 读取模板文件
-with open("template.txt", "r", encoding="utf-8") as f:
+with open(".github/workflows/scripts/template.txt", "r", encoding="utf-8") as f:
     template = f.read().strip()
 
 
