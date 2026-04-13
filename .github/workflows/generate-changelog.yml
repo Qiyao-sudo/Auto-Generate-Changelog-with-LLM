@@ -21,6 +21,15 @@ jobs:
   build-changelog:
     runs-on: ubuntu-latest
     steps:
+
+
+      - name: 检出代码（拉全量历史+所有Tag）
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          fetch-tags: true
+          ref: main  # 确保在主分支操作，可根据你的分支名修改
+      
       - name: Set credentials if PAT exists
         run: |
           if [ -n "$ACTIONS_PAT" ]; then
@@ -31,13 +40,6 @@ jobs:
           fi
         env:
           ACTIONS_PAT: ${{ secrets.ACTION_PAT }}
-
-      - name: 检出代码（拉全量历史+所有Tag）
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-          fetch-tags: true
-          ref: main  # 确保在主分支操作，可根据你的分支名修改
 
       - name: 设置Python环境
         uses: actions/setup-python@v5
