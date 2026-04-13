@@ -21,15 +21,24 @@ jobs:
   build-changelog:
     runs-on: ubuntu-latest
     steps:
+      - name: Set credentials if PAT exists
+        run: |
+          if [ -n "$ACTIONS_PAT" ]; then
+            git remote set-url origin https://$ACTIONS_PAT@github.com/${{ github.repository }}.git
+            echo "✅ 使用 PAT 认证"
+          else
+            echo "ℹ️ 未配置 PAT，使用默认权限"
+          fi
+        env:
+          ACTIONS_PAT: ${{ secrets.ACTION_PAT }}
+
       - name: 检出代码（拉全量历史+所有Tag）
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
           fetch-tags: true
           ref: main  # 确保在主分支操作，可根据你的分支名修改
-          token: ${{ secrets.ACTION_PAT || '' }}
-        continue-on-error: true
-        
+
       - name: 设置Python环境
         uses: actions/setup-python@v5
         with:
