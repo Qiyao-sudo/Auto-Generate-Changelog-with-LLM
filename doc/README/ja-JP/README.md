@@ -1,6 +1,6 @@
 # 🚀 LLMによる自動Changelog生成
 
-🌐 **言語**: [English](doc/README/en-US/README.md) | [中文](doc/README/zh-CN/README.md) | [日本語](doc/README/ja-JP/README.md) | [Deutsch](doc/README/de-DE/README.md) | [Español](doc/README/es-ES/README.md) | [Русский](doc/README/ru-RU/README.md) | [العربية](doc/README/ar-SA/README.md)
+🌐 **言語**: [English](doc/README/en-US/README.md) | [中文](doc/README/zh-CN/README.md) | [日本語](doc/README/ja-JP/README.md) | [Deutsch](doc/README/de-DE/README.md) | [Español](doc/README/es-ES/README.md) | [Русский](doc/README/ru-RU/README.md) | [العربية](doc/README/ar-SA/README.md) | [繁體中文](doc/README/zh-TW/README.md)
 
 DeepSeekなどの大規模言語モデル（LLM）を活用して、GitHub Actions上で自動的に標準化された構造化バージョン変更ログ（Changelog）を生成する自動化ツールです。手動での記述は不要で、ワークフローをトリガーするだけでプロフェッショナルレベルの更新ドキュメントを取得できます。
 

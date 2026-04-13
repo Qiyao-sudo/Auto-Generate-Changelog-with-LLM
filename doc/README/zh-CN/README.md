@@ -1,6 +1,6 @@
 # 🚀 使用LLM自动生成Changelog
 
-🌐 **Languages**: [English](doc/README/en-US/README.md) | [中文](doc/README/zh-CN/README.md) | [日本語](doc/README/ja-JP/README.md) | [Deutsch](doc/README/de-DE/README.md) | [Español](doc/README/es-ES/README.md) | [Русский](doc/README/ru-RU/README.md) | [العربية](doc/README/ar-SA/README.md)
+🌐 **Languages**: [English](doc/README/en-US/README.md) | [中文](doc/README/zh-CN/README.md) | [日本語](doc/README/ja-JP/README.md) | [Deutsch](doc/README/de-DE/README.md) | [Español](doc/README/es-ES/README.md) | [Русский](doc/README/ru-RU/README.md) | [العربية](doc/README/ar-SA/README.md) | [繁體中文](doc/README/zh-TW/README.md)
 
 一个基于 GitHub Actions 的自动化工具，利用 DeepSeek 等大语言模型（LLM）自动生成规范、结构化的版本更新日志（Changelog）。无需手动编写，只需触发工作流，即可获得专业级别的更新文档。
 

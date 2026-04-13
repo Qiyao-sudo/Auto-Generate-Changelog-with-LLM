@@ -1,6 +1,6 @@
 # 🚀 توليد سجل التغييرات تلقائيًا باستخدام نموذج لغة كبير (LLM)
 
-🌐 **اللغات**: [English](doc/README/en-US/README.md) | [中文](doc/README/zh-CN/README.md) | [日本語](doc/README/ja-JP/README.md) | [Deutsch](doc/README/de-DE/README.md) | [Español](doc/README/es-ES/README.md) | [Русский](doc/README/ru-RU/README.md) | [العربية](doc/README/ar-SA/README.md)
+🌐 **اللغات**: [English](doc/README/en-US/README.md) | [中文](doc/README/zh-CN/README.md) | [日本語](doc/README/ja-JP/README.md) | [Deutsch](doc/README/de-DE/README.md) | [Español](doc/README/es-ES/README.md) | [Русский](doc/README/ru-RU/README.md) | [العربية](doc/README/ar-SA/README.md) | [繁體中文](doc/README/zh-TW/README.md)
 
 أداة تلقائية تعتمد على GitHub Actions تستخدم نماذج اللغة الكبيرة (LLM) مثل DeepSeek لتوليد سجلات التغييرات (Changelog) المنظمة والمتстандарتة تلقائيًا. لا داعي للكتابة يدويًا، فقط قم بتشغيل سير العمل للحصول على وثائق تحديثات ذات مستوى احترافي.
 

@@ -1,6 +1,6 @@
 # 🚀 Automatische Changelog-Generierung mit LLM
 
-🌐 **Sprachen**: [English](doc/README/en-US/README.md) | [中文](doc/README/zh-CN/README.md) | [日本語](doc/README/ja-JP/README.md) | [Deutsch](doc/README/de-DE/README.md) | [Español](doc/README/es-ES/README.md) | [Русский](doc/README/ru-RU/README.md) | [العربية](doc/README/ar-SA/README.md)
+🌐 **Sprachen**: [English](doc/README/en-US/README.md) | [中文](doc/README/zh-CN/README.md) | [日本語](doc/README/ja-JP/README.md) | [Deutsch](doc/README/de-DE/README.md) | [Español](doc/README/es-ES/README.md) | [Русский](doc/README/ru-RU/README.md) | [العربية](doc/README/ar-SA/README.md) | [繁體中文](doc/README/zh-TW/README.md)
 
 Ein automatisches Tool basierend auf GitHub Actions, das DeepSeek und andere Large Language Models (LLM) verwendet, um standardisierte, strukturierte Versionsaktualisierungslogs (Changelog) automatisch zu generieren. Kein manuelles Schreiben erforderlich - nur den Workflow auslösen und eine professionelle Aktualisierungsdokumentation erhalten.
 

@@ -1,6 +1,6 @@
 # 🚀 Автоматическая генерация Changelog с использованием LLM
 
-🌐 **Языки**: [English](doc/README/en-US/README.md) | [中文](doc/README/zh-CN/README.md) | [日本語](doc/README/ja-JP/README.md) | [Deutsch](doc/README/de-DE/README.md) | [Español](doc/README/es-ES/README.md) | [Русский](doc/README/ru-RU/README.md) | [العربية](doc/README/ar-SA/README.md)
+🌐 **Языки**: [English](doc/README/en-US/README.md) | [中文](doc/README/zh-CN/README.md) | [日本語](doc/README/ja-JP/README.md) | [Deutsch](doc/README/de-DE/README.md) | [Español](doc/README/es-ES/README.md) | [Русский](doc/README/ru-RU/README.md) | [العربية](doc/README/ar-SA/README.md) | [繁體中文](doc/README/zh-TW/README.md)
 
 Автоматический инструмент на основе GitHub Actions, который использует большие языковые модели (LLM), такие как DeepSeek, для автоматической генерации стандартизированных, структурированных журналов версионных обновлений (Changelog). Нет необходимости вручную писать - просто запустите рабочий процесс и получите профессиональную документацию обновлений.
 
