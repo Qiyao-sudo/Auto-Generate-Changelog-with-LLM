@@ -35,6 +35,8 @@ jobs:
           if [ -n "$ACTIONS_PAT" ]; then
             git remote set-url origin https://$ACTIONS_PAT@github.com/${{ github.repository }}.git
             token: ${{ secrets.ACTION_PAT }}
+            with: 
+              token: ${{ secrets.ACTION_PAT }}
             echo "✅ 使用 PAT 认证"
           else
             echo "ℹ️ 未配置 PAT，使用默认权限"
