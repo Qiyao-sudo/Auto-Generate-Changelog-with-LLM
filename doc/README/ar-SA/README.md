@@ -193,7 +193,7 @@ README.md                         # وثائق المشروع
 
 ## 📄 الرخصة
 
-هذا المشروع مرخص بموجب رخصة MIT. لتفاصيل إضافية، راجع ملف [LICENSE](LICENSE).
+هذا المشروع مرخص بموجب رخصة MIT. لتفاصيل إضافية، راجع ملف [LICENSE](https://github.com/Qiyao-sudo/Auto-Generate-Changelog-with-LLM/blob/main/LICENSE).
 
 ## 🤝 دليل المساهمة
 

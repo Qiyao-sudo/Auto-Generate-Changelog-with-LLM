@@ -193,7 +193,7 @@ A: 完全なGit履歴（`fetch-depth: 0`）は、タグ間のコミット差分�
 
 ## 📄 ライセンス
 
-このプロジェクトはMITライセンスを使用します。詳細については [LICENSE](LICENSE) ファイルを参照してください。
+このプロジェクトはMITライセンスを使用します。詳細については [LICENSE](https://github.com/Qiyao-sudo/Auto-Generate-Changelog-with-LLM/blob/main/LICENSE) ファイルを参照してください。
 
 ## 🤝 貢献ガイドライン
 

@@ -193,7 +193,7 @@ Durch Bearbeiten der Datei `template.txt` können Sie das Ausgabeformat vollstä
 
 ## 📄 Lizenz
 
-Dieses Projekt unterliegt der MIT-Lizenz. Details finden Sie in der [LICENSE](LICENSE)-Datei.
+Dieses Projekt unterliegt der MIT-Lizenz. Details finden Sie in der [LICENSE](https://github.com/Qiyao-sudo/Auto-Generate-Changelog-with-LLM/blob/main/LICENSE)-Datei.
 
 ## 🤝 Mitwirkungsrichtlinien
 

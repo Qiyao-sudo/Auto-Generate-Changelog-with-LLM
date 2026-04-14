@@ -193,7 +193,7 @@ A: Полная история Git (`fetch-depth: 0`) необходима дл�
 
 ## 📄 Лицензия
 
-Этот проект распространяется под лицензией MIT. Подробности см. в файле [LICENSE](LICENSE).
+Этот проект распространяется под лицензией MIT. Подробности см. в файле [LICENSE](https://github.com/Qiyao-sudo/Auto-Generate-Changelog-with-LLM/blob/main/LICENSE).
 
 ## 🤝 Руководство по внесению вклада
 

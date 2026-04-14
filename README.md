@@ -193,7 +193,7 @@ Editing the `template.txt` file allows complete customization of output format, 
 
 ## 📄 License
 
-This project uses the MIT License. See the [LICENSE](LICENSE) file for details.
+This project uses the MIT License. See the [LICENSE](https://github.com/Qiyao-sudo/Auto-Generate-Changelog-with-LLM/blob/main/LICENSE) file for details.
 
 ## 🤝 Contribution Guidelines
 

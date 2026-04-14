@@ -193,7 +193,7 @@ A: 完整的 Git 歷史記錄（`fetch-depth: 0`）是為了確保能準確計�
 
 ## 📄 許可證
 
-本專案採用 MIT 許可證。詳見 [LICENSE](LICENSE) 文件。
+本專案採用 MIT 許可證。詳見 [LICENSE](https://github.com/Qiyao-sudo/Auto-Generate-Changelog-with-LLM/blob/main/LICENSE) 文件。
 
 ## 🤝 貢獻指南
 
