@@ -61,7 +61,7 @@
 | اسم المتغير | مطلوب | القيمة الافتراضية | الوصف |
 |------------|--------|------------------|--------|
 | `LLM_API_KEY` | ✅ | لا شيء | مفتاح API LLM |
-| `LLM_API_ENDPOINT` | ❌ | `https://api.deepseek.com/` | عنوان نقطة نهاية API |
+| `LLM_API_ENDPOINT` | ❌ | `https://api.deepseek.com/chat/completions/` | عنوان نقطة نهاية API |
 | `LLM_API_MODEL` | ❌ | `deepseek-chat` | اسم النموذج المستخدم |
 
 ### قالب التعليمات المخصص

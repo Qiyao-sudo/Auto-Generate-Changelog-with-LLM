@@ -61,7 +61,7 @@ Configura las siguientes variables en GitHub Secrets:
 | Nombre de variable | Requerido | Valor por defecto | Descripción |
 |-------------------|-----------|-------------------|-------------|
 | `LLM_API_KEY` | ✅ | Ninguno | Clave de API de LLM |
-| `LLM_API_ENDPOINT` | ❌ | `https://api.deepseek.com/` | Dirección del punto de extremo de la API |
+| `LLM_API_ENDPOINT` | ❌ | `https://api.deepseek.com/chat/completions/` | Dirección del punto de extremo de la API |
 | `LLM_API_MODEL` | ❌ | `deepseek-chat` | Nombre del modelo a usar |
 
 ### Plantilla de prompt personalizada

@@ -61,7 +61,7 @@ GitHub Secretsで以下の変数を設定します:
 | 変数名 | 必須 | デフォルト値 | 説明 |
 |--------|------|--------------|------|
 | `LLM_API_KEY` | ✅ | なし | LLM APIキー |
-| `LLM_API_ENDPOINT` | ❌ | `https://api.deepseek.com/` | APIエンドポイントアドレス |
+| `LLM_API_ENDPOINT` | ❌ | `https://api.deepseek.com/chat/completions/` | APIエンドポイントアドレス |
 | `LLM_API_MODEL` | ❌ | `deepseek-chat` | 使用するモデル名 |
 
 ### カスタムプロンプトテンプレート

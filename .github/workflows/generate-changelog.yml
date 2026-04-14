@@ -97,7 +97,7 @@ jobs:
       - name: 调用DeepSeek生成Changelog并写入App.md
         env:
           LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
-          LLM_API_ENDPOINT: ${{ secrets.LLM_API_ENDPOINT || 'https://api.deepseek.com/' }}
+          LLM_API_ENDPOINT: ${{ secrets.LLM_API_ENDPOINT || 'https://api.deepseek.com/chat/completions/' }}
           LLM_API_MODEL: ${{ secrets.LLM_API_MODEL || 'deepseek-chat' }}
           MAIN_VERSION: ${{ github.event.inputs.main_version }}
           SUB_VERSION: ${{ github.event.inputs.sub_version }}

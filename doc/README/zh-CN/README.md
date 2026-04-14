@@ -61,7 +61,7 @@
 | 变量名 | 必填 | 默认值 | 说明 |
 |--------|------|--------|------|
 | `LLM_API_KEY` | ✅ | 无 | LLM API 密钥 |
-| `LLM_API_ENDPOINT` | ❌ | `https://api.deepseek.com/` | API 端点地址 |
+| `LLM_API_ENDPOINT` | ❌ | `https://api.deepseek.com/chat/completions/` | API 端点地址 |
 | `LLM_API_MODEL` | ❌ | `deepseek-chat` | 使用的模型名称 |
 
 ### 自定义提示词模板
