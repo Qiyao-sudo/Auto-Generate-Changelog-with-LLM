@@ -28,7 +28,7 @@
 3. **تكوين أسرار (Secrets)**: أضف الأسرار التالية في إعدادات المستودع → Secrets and variables → Actions:
    - `LLM_API_KEY`: مفتاح API LLM الخاص بك
    - (اختياري) `LLM_API_ENDPOINT`: نقطة نهاية API LLM، بشكل افتراضي DeepSeek
-   - (اختياري) `LLM_API_MODEL`: اسم النموذج المستخدم، بشكل افتراضي `deepseek-chat`
+   - (اختياري) `LLM_API_MODEL`: اسم النموذج المستخدم، بشكل افتراضي `deepseek-v4-flash`
 
 ## 📖 طريقة الاستخدام
 
@@ -62,7 +62,7 @@
 |------------|--------|------------------|--------|
 | `LLM_API_KEY` | ✅ | لا شيء | مفتاح API LLM |
 | `LLM_API_ENDPOINT` | ❌ | `https://api.deepseek.com/chat/completions/` | عنوان نقطة نهاية API |
-| `LLM_API_MODEL` | ❌ | `deepseek-chat` | اسم النموذج المستخدم |
+| `LLM_API_MODEL` | ❌ | `deepseek-v4-flash` | اسم النموذج المستخدم |
 
 ### قالب التعليمات المخصص
 

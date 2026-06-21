@@ -28,7 +28,7 @@
 3. **Настройте Secrets**: Добавьте следующие Secrets в Настройки репозитория → Secrets and variables → Actions:
    - `LLM_API_KEY`: Ваш ключ API LLM
    - (Необязательно) `LLM_API_ENDPOINT`: Конечная точка API LLM, по умолчанию DeepSeek
-   - (Необязательно) `LLM_API_MODEL`: Название используемой модели, по умолчанию `deepseek-chat`
+   - (Необязательно) `LLM_API_MODEL`: Название используемой модели, по умолчанию `deepseek-v4-flash`
 
 ## 📖 Использование
 
@@ -62,7 +62,7 @@
 |--------------------|------------|------------------------|----------|
 | `LLM_API_KEY` | ✅ | Нет | Ключ API LLM |
 | `LLM_API_ENDPOINT` | ❌ | `https://api.deepseek.com/chat/completions/` | Адрес конечной точки API |
-| `LLM_API_MODEL` | ❌ | `deepseek-chat` | Название используемой модели |
+| `LLM_API_MODEL` | ❌ | `deepseek-v4-flash` | Название используемой модели |
 
 ### Пользовательский шаблон запроса
 

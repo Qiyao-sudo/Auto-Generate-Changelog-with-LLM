@@ -28,7 +28,7 @@ Una herramienta automatizada basada en GitHub Actions que utiliza modelos de len
 3. **Configurar Secrets**: Agrega los siguientes Secrets en Configuración del repositorio → Secrets and variables → Actions:
    - `LLM_API_KEY`: Tu clave de API de LLM
    - (Opcional) `LLM_API_ENDPOINT`: Punto de extremo de la API de LLM, por defecto DeepSeek
-   - (Opcional) `LLM_API_MODEL`: Nombre del modelo a usar, por defecto `deepseek-chat`
+   - (Opcional) `LLM_API_MODEL`: Nombre del modelo a usar, por defecto `deepseek-v4-flash`
 
 ## 📖 Uso
 
@@ -62,7 +62,7 @@ Configura las siguientes variables en GitHub Secrets:
 |-------------------|-----------|-------------------|-------------|
 | `LLM_API_KEY` | ✅ | Ninguno | Clave de API de LLM |
 | `LLM_API_ENDPOINT` | ❌ | `https://api.deepseek.com/chat/completions/` | Dirección del punto de extremo de la API |
-| `LLM_API_MODEL` | ❌ | `deepseek-chat` | Nombre del modelo a usar |
+| `LLM_API_MODEL` | ❌ | `deepseek-v4-flash` | Nombre del modelo a usar |
 
 ### Plantilla de prompt personalizada
 

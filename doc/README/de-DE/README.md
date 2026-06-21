@@ -28,7 +28,7 @@ Ein automatisches Tool basierend auf GitHub Actions, das DeepSeek und andere Lar
 3. **Secrets konfigurieren**: Füge in den Repository-Einstellungen → Secrets and variables → Actions die folgenden Secrets hinzu:
    - `LLM_API_KEY`: Dein LLM-API-Schlüssel
    - (Optional) `LLM_API_ENDPOINT`: LLM-API-Endpunkt, standardmäßig DeepSeek
-   - (Optional) `LLM_API_MODEL`: Zu verwendender Modellname, standardmäßig `deepseek-chat`
+   - (Optional) `LLM_API_MODEL`: Zu verwendender Modellname, standardmäßig `deepseek-v4-flash`
 
 ## 📖 Verwendung
 
@@ -62,7 +62,7 @@ Konfiguriere folgende Variablen in GitHub Secrets:
 |--------------|-------------|-------------|-------------|
 | `LLM_API_KEY` | ✅ | Keiner | LLM-API-Schlüssel |
 | `LLM_API_ENDPOINT` | ❌ | `https://api.deepseek.com/chat/completions/` | API-Endpunkt-Adresse |
-| `LLM_API_MODEL` | ❌ | `deepseek-chat` | Zu verwendender Modellname |
+| `LLM_API_MODEL` | ❌ | `deepseek-v4-flash` | Zu verwendender Modellname |
 
 ### Benutzerdefinierte Prompt-Vorlage
 

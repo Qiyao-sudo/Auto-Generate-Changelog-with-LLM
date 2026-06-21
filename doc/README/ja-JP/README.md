@@ -28,7 +28,7 @@ DeepSeekなどの大規模言語モデル（LLM）を活用して、GitHub Actio
 3. **Secretsの設定**: リポジトリの Settings → Secrets and variables → Actions で以下のSecretsを追加します:
    - `LLM_API_KEY`: あなたのLLM APIキー
    - （オプション）`LLM_API_ENDPOINT`: LLM APIエンドポイント、デフォルトはDeepSeek
-   - （オプション）`LLM_API_MODEL`: 使用するモデル名、デフォルトは `deepseek-chat`
+   - （オプション）`LLM_API_MODEL`: 使用するモデル名、デフォルトは `deepseek-v4-flash`
 
 ## 📖 使用方法
 
@@ -62,7 +62,7 @@ GitHub Secretsで以下の変数を設定します:
 |--------|------|--------------|------|
 | `LLM_API_KEY` | ✅ | なし | LLM APIキー |
 | `LLM_API_ENDPOINT` | ❌ | `https://api.deepseek.com/chat/completions/` | APIエンドポイントアドレス |
-| `LLM_API_MODEL` | ❌ | `deepseek-chat` | 使用するモデル名 |
+| `LLM_API_MODEL` | ❌ | `deepseek-v4-flash` | 使用するモデル名 |
 
 ### カスタムプロンプトテンプレート
 

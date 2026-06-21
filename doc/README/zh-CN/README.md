@@ -28,7 +28,7 @@
 3. **配置 Secrets**：在仓库 Settings → Secrets and variables → Actions 中添加以下 Secrets：
    - `LLM_API_KEY`: 你的 LLM API 密钥
    - （可选）`LLM_API_ENDPOINT`: LLM API 端点，默认使用 DeepSeek
-   - （可选）`LLM_API_MODEL`: 使用的模型名称，默认 `deepseek-chat`
+   - （可选）`LLM_API_MODEL`: 使用的模型名称，默认 `deepseek-v4-flash`
 
 ## 📖 使用方法
 
@@ -62,7 +62,7 @@
 |--------|------|--------|------|
 | `LLM_API_KEY` | ✅ | 无 | LLM API 密钥 |
 | `LLM_API_ENDPOINT` | ❌ | `https://api.deepseek.com/chat/completions/` | API 端点地址 |
-| `LLM_API_MODEL` | ❌ | `deepseek-chat` | 使用的模型名称 |
+| `LLM_API_MODEL` | ❌ | `deepseek-v4-flash` | 使用的模型名称 |
 
 ### 自定义提示词模板
 

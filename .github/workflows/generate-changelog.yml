@@ -98,7 +98,7 @@ jobs:
         env:
           LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
           LLM_API_ENDPOINT: ${{ secrets.LLM_API_ENDPOINT || 'https://api.deepseek.com/chat/completions/' }}
-          LLM_API_MODEL: ${{ secrets.LLM_API_MODEL || 'deepseek-chat' }}
+          LLM_API_MODEL: ${{ secrets.LLM_API_MODEL || 'deepseek-v4-flash' }}
           MAIN_VERSION: ${{ github.event.inputs.main_version }}
           SUB_VERSION: ${{ github.event.inputs.sub_version }}
           CURRENT_TAG: ${{ steps.process_tag.outputs.current_tag }}

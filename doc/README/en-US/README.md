@@ -28,7 +28,7 @@ An automated GitHub Actions tool that uses DeepSeek or other large language mode
 3. **Configure Secrets**: Add the following Secrets in repository Settings → Secrets and variables → Actions:
    - `LLM_API_KEY`: Your LLM API key
    - (Optional) `LLM_API_ENDPOINT`: LLM API endpoint, defaults to DeepSeek
-   - (Optional) `LLM_API_MODEL`: Model name to use, defaults to `deepseek-chat`
+   - (Optional) `LLM_API_MODEL`: Model name to use, defaults to `deepseek-v4-flash`
 
 ## 📖 Usage
 
@@ -62,7 +62,7 @@ Configure the following variables in GitHub Secrets:
 |---------------|----------|---------------|-------------|
 | `LLM_API_KEY` | ✅ | None | LLM API key |
 | `LLM_API_ENDPOINT` | ❌ | `https://api.deepseek.com/chat/completions/` | API endpoint address |
-| `LLM_API_MODEL` | ❌ | `deepseek-chat` | Model name to use |
+| `LLM_API_MODEL` | ❌ | `deepseek-v4-flash` | Model name to use |
 
 ### Custom Prompt Template
 
